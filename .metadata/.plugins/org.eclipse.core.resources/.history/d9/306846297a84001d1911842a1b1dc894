@@ -1,0 +1,7 @@
+package com.springcore.byNameAutowiring;
+
+import java.net.Inet4Address;
+
+public class Employee {
+
+private Inet4Address address;}

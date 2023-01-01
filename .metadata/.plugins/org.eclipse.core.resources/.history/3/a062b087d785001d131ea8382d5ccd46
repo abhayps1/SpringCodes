@@ -1,0 +1,11 @@
+package com.springcore;
+
+//@Component
+public class Student {
+
+	private Samosa samosa;
+
+	public void study() {
+		System.out.println("Student is studying");
+	}
+}

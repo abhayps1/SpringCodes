@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.springcore.ProjectWithMaven&apos; to &apos;com.springcore&apos;&#x0D;&#x0A;- Original project: &apos;ProjectWithMaven&apos;&#x0D;&#x0A;- Original element: &apos;ProjectWithMaven/src/main/java/com.springcore.ProjectWithMaven&apos;&#x0D;&#x0A;- Renamed element: &apos;ProjectWithMaven/src/main/java/com.springcore&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.springcore.ProjectWithMaven&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springcore.ProjectWithMaven" name="com.springcore" qualified="false" references="true" stamp="1671857194948" textual="false" version="1.0"/>
+</session>

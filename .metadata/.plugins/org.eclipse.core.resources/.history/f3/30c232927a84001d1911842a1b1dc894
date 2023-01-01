@@ -1,0 +1,5 @@
+package com.springcore.byNameAutowiring;
+
+public class Address {
+	private String street;
+}

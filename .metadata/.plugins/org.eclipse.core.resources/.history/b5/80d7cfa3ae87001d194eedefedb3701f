@@ -1,0 +1,13 @@
+package com.springorm.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "student_details")
+public class Student {
+	private int studentId;
+	private String studentName;
+	private String studentCity;
+
+}

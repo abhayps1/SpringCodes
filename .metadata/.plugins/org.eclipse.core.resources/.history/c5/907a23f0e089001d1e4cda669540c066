@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd" xmlns:p="http://www.springframework.org/schema/p">
+
+	<!-- 
+	
+	<bean class="com.springcore.Addition" name="add">
+		<constructor-arg value="34" />
+		<constructor-arg value="12" />
+	</bean>
+	
+	<bean class="com.springcore.Addition" name="addi">
+		<constructor-arg value="34" type="int" />
+		<constructor-arg value="12" />
+	</bean>
+	
+	<bean class="com.springcore.Addition" name="addd">
+		<constructor-arg value="34" />
+		<constructor-arg value="12" type="double" />
+	</bean>
+	-->
+	
+	<bean class="com.springcore.Addition" name="addindex">
+		<constructor-arg value="34" />
+		<constructor-arg value="12" type="double" />
+	</bean>
+	
+
+	
+	
+</beans>

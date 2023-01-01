@@ -1,0 +1,19 @@
+package com.springorm.dao;
+
+import java.io.Serializable;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.springorm.entities.Student;
+
+public class StudentDAO {
+
+	private HibernateTemplate hibernateTemplate;
+
+	public int insert(Student student) {
+		// insert
+		Integer save = this.hibernateTemplate.save(student);
+		return 1;
+	}
+
+}

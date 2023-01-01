@@ -1,0 +1,17 @@
+package com.springcore.byNameAutowiring;
+
+public class Employee {
+
+	private Address address;
+
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(Address address) {
+		super();
+		this.address = address;
+	}
+	
+}
